@@ -1,2 +1,2 @@
-# portfolio-app
-Container (Portfolio) app of the Udacity's Android Nanodegree program
+# Application Portfolio
+Container application of the Udacity's Android Nanodegree program
