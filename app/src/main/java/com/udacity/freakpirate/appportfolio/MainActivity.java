@@ -30,19 +30,18 @@ public class MainActivity extends AppCompatActivity {
 //        });
     }
 
-    public void funOnClick(View view){
+    public void clickOnBtn(View view){
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_LONG;
         String toast_text = "";
-
         switch (view.getId()){
 
             case R.id.button_spotify:
-                toast_text = "Spotify Streamer";
+                toast_text = "Media Streamer";
                 break;
 
             case R.id.button_build_it_bigger:
-                toast_text = "Build It Bigger";
+                toast_text = "Gradle Project";
                 break;
 
             case R.id.button_capstone:
@@ -54,18 +53,22 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.button_scores_app:
-                toast_text = "Scores";
+                toast_text = "Score Tracker";
                 break;
 
             case R.id.button_xyz_reader:
-                toast_text = "XYZ Reader";
+                toast_text = "Reader";
                 break;
         }
 
-        toast_text = "This button will launch my " + toast_text + " app!";
+        toast_text = getResources().getString(R.string.toast_prefix) + " " + toast_text + " app!";
 
         Toast toast = Toast.makeText(context, toast_text, duration);
         toast.show();
+
+//        LAZY IMPLEMENTATION
+//        Button btn = (Button)view;
+//        Toast.makeText(getApplicationContext(), (CharSequence) btn.getText(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
