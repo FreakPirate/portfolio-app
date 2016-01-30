@@ -3,8 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="text_view">25dp</dimen>
-    <dimen name="button_font">17dp</dimen>
+    <dimen name="text_view">25sp</dimen>
+    <dimen name="button_font">17sp</dimen>
     <dimen name="button_width">230dp</dimen>
     <dimen name="button_margin">10dp</dimen>
+    <dimen name="txt_view_margin">35dp</dimen>
 </resources>

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickOnBtn(View view){
         Context context = getApplicationContext();
-        int duration = Toast.LENGTH_LONG;
+        int duration = Toast.LENGTH_SHORT;
         String toast_text = "";
         switch (view.getId()){
 
